@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE ROONEY - Tees Printing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: navy;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: navy;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .services, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .service, .gallery-item {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery-item img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: navy;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    footer {
+      background-color: navy;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    a.social {
+      color: yellow;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>THE ROONEY</h1>
+    <p>tees printing</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to THE ROONEY – your one-stop destination for high-quality T-shirt printing. We specialize in custom prints including Vinyl, DTF, Sublimation, and Sports T-shirts. Whether it's for your team, event, or personal style, we bring your ideas to life with vibrant and lasting prints.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Vinyl Print</h3>
+        <p>Sharp and durable custom vinyl printing for T-shirts.</p>
+      </div>
+      <div class="service">
+        <h3>DTF Print</h3>
+        <p>High-resolution Direct-to-Film prints with a soft feel.</p>
+      </div>
+      <div class="service">
+        <h3>Sublimation Print</h3>
+        <p>Full-color designs infused directly into the fabric.</p>
+      </div>
+      <div class="service">
+        <h3>Sports T-Shirts</h3>
+        <p>Team kits, jersey numbers, and custom names printed fast.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item"><img src="image1.jpg" alt="T-Shirt Design 1"></div>
+      <div class="gallery-item"><img src="image2.jpg" alt="Logo Design"></div>
+      <div class="gallery-item"><img src="image3.jpg" alt="Custom T-Shirt"></div>
+      <div class="gallery-item"><img src="image4.jpg" alt="Printing Services"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:+916281656931">+91 62816 56931</a>, <a href="tel:+919704105492">+91 97041 05492</a></p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/_rooney_jr" class="social" target="_blank">@_rooney_jr</a></p>
+    <p><strong>Address:</strong> Chennareddy Colony, Zaheerabad</p>
+    <form action="mailto:0105rooney@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 THE ROONEY. All rights reserved.</p>
+  </footer>
+</body>
+</html>
